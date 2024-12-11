@@ -250,7 +250,7 @@ const Formulario = ({
               Continuar com o pagamento
             </ButtonPerfil>
             <ButtonPerfil type="button" onClick={avancaParaCarrinho}>
-              voltar para o carrinho
+              Voltar para o carrinho
             </ButtonPerfil>
           </Buttondiv>
         </ContentFormulario>
@@ -326,7 +326,7 @@ const Formulario = ({
           <Buttondiv>
             <ButtonPerfil type="submit">Finalizar pagamento</ButtonPerfil>
             <ButtonPerfil type="button" onClick={RetornaParaEntrega}>
-              voltar para edição de endereço
+              Voltar para edição de endereço
             </ButtonPerfil>
           </Buttondiv>
         </ContentFormulario>
