@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux'
 import { RootReducer } from '../../../store'
-import { useValorTotal } from '../../../Uteis'
+import { useValorTotal } from '../../../utils'
 
 import { remove } from '../../../store/reducer/cart'
 import { Cards, ImgFechar, ImgPrato, Valor } from '../Carrinho/styles'

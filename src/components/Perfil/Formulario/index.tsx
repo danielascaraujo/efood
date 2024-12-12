@@ -5,7 +5,7 @@ import * as Yup from 'yup'
 
 import InputMask from 'react-input-mask'
 import { usePurchaseMutation } from '../../../services/api'
-import { useValorTotal } from '../../../Uteis'
+import { useValorTotal } from '../../../utils'
 import { ButtonPerfil } from '../ButtonPerfil/styled'
 import { close, clear } from '../../../store/reducer/cart'
 import { Prato } from '../../../types/Restaurante'
